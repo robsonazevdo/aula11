@@ -8,4 +8,4 @@ def inicio():
 
 @app.route('/inicio-alternativo')
 def outro_inicio():
-    return render_template('alternative-index.html')
+    return render_template('alternative_index.html')
