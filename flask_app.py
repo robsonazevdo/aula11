@@ -6,11 +6,13 @@ app = Flask(__name__)
 def inicio():
     return render_template('index.html')
 
-@app.route('/inicio2')
-def outro_inicio():
-    return render_template('alternative_index.html')
+@app.route('/contato')
+def contato():
+    return render_template('contato.html')
 
-
+@app.route('/sobre')
+def sobre():
+    return render_template('sobre.html')
 
 ## Para rodar o projeto em desenvolvimento
 
